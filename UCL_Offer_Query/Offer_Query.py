@@ -35,7 +35,7 @@ data = {"%.DUM_MESSAGE.MENSYS.1":"",
 "PARS.DUMMY.MENSYS.1":"",
 "MUA_CODE.DUMMY.MENSYS.1": "your account",
 "PASSWORD.DUMMY.MENSYS.1":"your password",
-"BP101.DUMMY_B.MENSYS.1":"Log in >>"}
+"BP101.DUMMY_B.MENSYS.1":"Log+in+>>"}
 
 result = page.xpath("//input[@name='%.DUM_MESSAGE.MENSYS.1']")
 data["%.DUM_MESSAGE.MENSYS.1"] = result[0].get("value")
