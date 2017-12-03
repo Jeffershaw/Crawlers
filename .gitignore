@@ -5,3 +5,6 @@
 ghostdriver.log
 ghostdriver.log
 ghostdriver.log
+*.log
+*.xml
+.idea/workspace.xml
